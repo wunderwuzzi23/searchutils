@@ -18,3 +18,11 @@ This script directly connects to the Windows Search database and queries for the
 ```
 Invoke-WindowsSearch password
 ```
+
+
+## Learn more
+
+Some more useful information can be found below:
+* Windows Search Samples - https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch
+* Excel COM Object: https://docs.microsoft.com/en-us/office/vba/api/excel.range.findnext
+* Word COM Object: https://docs.microsoft.com/en-us/office/vba/api/word.find.execute
