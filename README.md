@@ -1,5 +1,5 @@
 # searchutils
-Scripts and techniques to search for through office documents, or leverage the Windows indexing service
+Scripts and techniques to search for keywordss in Office documents, and leverage the Windows Indexing Service for quick file content searches.
 
 ## Usage
 
