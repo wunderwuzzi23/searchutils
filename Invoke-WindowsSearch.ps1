@@ -4,6 +4,7 @@ function Invoke-WindowsSearch
     (
      [Parameter()][string] $SearchString = "password"
     )
+    $SearchString = $SearchString.Replace("'","''")
     $query   = "select system.itemname, system.itempathdisplay from systemindex where contains('$SearchString')"
     $provider = "Provider=Search.CollatorDSO.1;Extended?PROPERTIES='Application=Windows'"
     $adapter  = new-object System.Data.OleDb.OleDBDataAdapter -Argument $query, $provider
